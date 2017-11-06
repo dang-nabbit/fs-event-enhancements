@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name        Fallen Sanctum - Event highlight
-// @namespace   https://www.fallen-sanctum.com/manual.php?p=events
+// @namespace   https://www.fallen-sanctum.com/
+// @match       https://www.fallen-sanctum.com/manual.php?p=events
 // @author      dang
 // @description Highlight events that you are able to do
-// @version     0.1
+// @version     0.2
 // @icon        https://www.google.com/s2/favicons?domain=https://www.fallen-sanctum.com
 // @grant       none
 // ==/UserScript==
