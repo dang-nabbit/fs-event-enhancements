@@ -4,7 +4,7 @@
 // @match       https://www.fallen-sanctum.com/manual.php?p=events
 // @author      dang
 // @description Enhancements for Fallen Sanctum event list page
-// @version     0.3
+// @version     0.4
 // @icon        https://www.google.com/s2/favicons?domain=https://www.fallen-sanctum.com
 // @updateURL   https://github.com/dang-nabbit/fs-event-enhancements/raw/master/fs-event-enhancements.user.js
 // @downloadURL https://github.com/dang-nabbit/fs-event-enhancements/raw/master/fs-event-enhancements.user.js
@@ -32,7 +32,7 @@ settings.skills = [
         verbs: ['Cook']
     }, {
         name: 'Crafting',
-        verbs: ['Craft']
+        verbs: ['Carve', 'Craft']
     }, {
         name: 'Digging',
         verbs: ['Dig']
