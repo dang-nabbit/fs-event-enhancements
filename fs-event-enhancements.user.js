@@ -3,16 +3,16 @@
 // @namespace   https://www.fallen-sanctum.com/
 // @match       https://www.fallen-sanctum.com/manual.php?p=events
 // @author      dang
+// @homepage    https://github.com/dang-nabbit/fs-event-enhancements
 // @description Enhancements for Fallen Sanctum event list page
-// @version     0.4
+// @version     0.5
 // @icon        https://www.google.com/s2/favicons?domain=https://www.fallen-sanctum.com
-// @updateURL   https://github.com/dang-nabbit/fs-event-enhancements/raw/master/fs-event-enhancements.user.js
 // @downloadURL https://github.com/dang-nabbit/fs-event-enhancements/raw/master/fs-event-enhancements.user.js
 // @grant       none
 // ==/UserScript==
 var settings = {};
 settings.separator = '|';
-settings.skillLevelsString = 'Woodcutting: 34 (1,360,155 XP)|Construction: 31 (943,442 XP)|Mining: 19 (133,481 XP)|Gathering: 18 (128,851 XP)|Lockpicking: 18 (120,748 XP)|Fishing: 17 (90,303 XP)|Smithing: 17 (85,837 XP)|Speed: 17 (89,202 XP)|Crafting: 15 (62,232 XP)|Digging: 14 (40,719 XP)|Cooking: 10 (12,786 XP)|Strength: 9 (8,261 XP)|Fletching: 9 (8,227 XP)|Hunting: 8 (5,620 XP)|Defense: 7 (2,471 XP)|Stamina: 6 (1,821 XP)|Agility: 6 (1,521 XP)|Attack: 4 (281 XP)';
+settings.skillLevelsString = 'Woodcutting: 37 (1,907,510 XP)|Construction: 35 (1,594,344 XP)|Digging: 26 (464,599 XP)|Gathering: 23 (292,504 XP)|Mining: 22 (271,793 XP)|Speed: 19 (152,567 XP)|Lockpicking: 18 (120,748 XP)|Fishing: 18 (107,317 XP)|Smithing: 17 (85,837 XP)|Crafting: 15 (62,232 XP)|Cooking: 10 (12,786 XP)|Strength: 9 (8,261 XP)|Fletching: 9 (8,227 XP)|Hunting: 8 (5,620 XP)|Defense: 7 (2,471 XP)|Stamina: 6 (1,821 XP)|Agility: 6 (1,521 XP)|Attack: 4 (281 XP)';
 settings.skillLevels = getSkillLevels();
 settings.colors = {
     highExp: '#0C0',
@@ -29,7 +29,7 @@ settings.skills = [
         verbs: ['Saw', 'Build']
     }, {
         name: 'Cooking',
-        verbs: ['Cook']
+        verbs: ['Churn', 'Cook']
     }, {
         name: 'Crafting',
         verbs: ['Carve', 'Craft']
